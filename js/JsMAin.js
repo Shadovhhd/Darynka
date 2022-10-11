@@ -1,7 +1,7 @@
 var Button = document.getElementById("submit");
 var spinner = document.querySelector(".spinner");
 var foto = document.querySelector(".darynka");
-var FotoRandom = ["img/photo2.png", "img/photo3.png", "img/photo1.jpg","img/photo4.png","img/photo5.png"];
+var FotoRandom = ["img/photo2.png", "img/photo3.png", "img/photo1.jpg","img/photo4.png"];
 var i = 0;    
 function myLoop () {           //  create a loop function
   setTimeout(function () {    //  call a 3s setTimeout when the loop is called
